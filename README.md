@@ -1,57 +1,71 @@
-<h1 align="center">Utkarsh Raj Sutihar</h1>
-
 <p align="center">
-  <strong>Founder, apinae · Researcher in intelligent, verifiable systems</strong>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,70:1B160A,100:FFC83D&height=170&section=header&text=Utkarsh%20Raj%20Sutihar&fontSize=42&fontColor=F5F1E8&fontAlignY=38&desc=research%20%C2%B7%20systems%20%C2%B7%20responsible%20AI&descAlignY=61&descSize=18&descColor=F5F1E8" alt="Utkarsh Raj Sutihar — research, systems, responsible AI" width="100%" />
 </p>
 
+<p align="center"><strong>Applied AI researcher · systems builder · founder</strong></p>
+
 <p align="center">
-  <a href="https://apinae.dev"><img src="https://img.shields.io/badge/apinae-Self--Maintaining%20APIs-FFC83D?style=flat-square&labelColor=111111" alt="apinae — Self-Maintaining APIs" /></a>
   <a href="https://www.linkedin.com/in/sutihar/"><img src="https://img.shields.io/badge/LinkedIn-Utkarsh%20Raj%20Sutihar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://sutihar.com/utkarsh"><img src="https://img.shields.io/badge/Website-sutihar.com-111111?style=flat-square" alt="Website" /></a>
+  <a href="https://apinae.dev"><img src="https://img.shields.io/badge/Founder-apinae-FFC83D?style=flat-square&labelColor=111111" alt="Founder of apinae" /></a>
 </p>
 
-I build systems where evidence, tests, and human judgment matter as much as model output. My work sits between applied AI, operations research, and developer infrastructure.
+## About me
 
-## Building apinae
+I study how data, models, and software systems make decisions — then build tools that make those decisions easier to inspect, test, and improve.
 
-**APIs evolve. Customer code has to keep up.** I am building [apinae](https://apinae.dev) around a narrow thesis: API vendors should be able to turn an approved change into a clear specification, a conformance test, and a verified customer migration.
-
-Current research and prototype work focuses on:
-
-- Co-producing change specifications and conformance tests with API vendors.
-- Finding affected customer code, generating minimal migration patches, and verifying behavior against protected tests.
-- Keeping vendor context private, preserving human review, and gating any publication behind explicit approval.
-
-Status: research and prototype work — not a claim of production deployment. I care about migration systems that can show their evidence trail, not merely produce plausible diffs.
+- Engineering Systems and Design student at SUTD, focused on AI, business analytics, and operations research.
+- Research interests: ranking and choice, complex systems, optimization, trustworthy AI, and evaluation.
+- I also founded [apinae](https://apinae.dev), where I explore safer ways for API vendors and their customers to handle technical change.
 
 ## Research
 
-### [HodgeRank: Human and Machine Perceptual Judgments](https://github.com/URSutihar/hodgerank)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>HodgeRank</h3>
+      <p>Computational-topology research on consistency and higher-order disagreement in human and machine perceptual judgments.</p>
+      <p><strong>Evidence:</strong> 4.5M+ comparisons, controlled null models, statistical validation, interactive visualization.</p>
+      <a href="https://github.com/URSutihar/hodgerank">Explore project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Decision systems & optimisation</h3>
+      <p>Models for choices under constraints: stochastic ecosystems, routing, and preference modelling.</p>
+      <p><strong>Methods:</strong> Monte Carlo simulation, genetic algorithms, simulated annealing, ant-colony optimisation, interpretable ML.</p>
+    </td>
+  </tr>
+</table>
 
-Computational-topology pipeline for measuring consistency and higher-order disagreement in perceptual-comparison data.
+## Featured projects
 
-- Analyzed **4.5M+ comparisons** with statistical validation and interactive visualization.
-- Used controlled null-model experiments to separate perceptual signals from dataset topology.
-- Built tools for Hodge decompositions and human-versus-machine decision analysis.
-
-### Complex systems and optimization
-
-- **Stochastic ecosystem simulation** — modeled generalist and specialist predator strategies across **20 prey species** under stochastic shocks.
-- **Multi-objective routing** — tested genetic algorithms, simulated annealing, and ant-colony optimization across **1,102 U.S. cities**, benchmarked against Gurobi.
-- **Procurement NLP** — applied BERT embeddings, clustering, and PCA to **1.2M+ procurement records** to surface cost drivers.
-
-## Selected systems
-
-- **Multi-Agent AML Automation** — translated regulatory requirements into executable monitoring rules with structured agent workflows, shared state, automated testing, and refinement. Stack: FastAPI, Docker, PostgreSQL, Neo4j.
-- **[AgentFlow XRPL](https://github.com/URSutihar/agentflow-xrpl)** — visual workflow orchestration with ReactFlow, conditional escrow, DID verification, and cryptographic preimage validation on XRP Ledger.
-- **Interpretable choice modeling** — compared XGBoost, neural networks, multinomial logit, and mixed logit for car-safety preferences, using custom evaluation and SHAP analysis.
-
-## Working principles
-
-- Evidence over theatre: show source, test, and outcome.
-- Small changes over broad rewrites: preserve behavior, minimize blast radius.
-- Human authority over automation: systems prepare, people decide.
-- Reproducibility over one-off demos: leave a path to rerun, inspect, and challenge results.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Multi-Agent AML Automation</h3>
+      <p>Agent workflow that turns regulatory requirements into executable monitoring rules, with shared state, structured outputs, testing, and refinement.</p>
+      <p><strong>Built with:</strong> FastAPI, LangGraph, PostgreSQL, Neo4j, Docker</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>AgentFlow XRPL</h3>
+      <p>Visual orchestration for conditional workflows on XRP Ledger, including escrow, DID verification, and cryptographic preimage validation.</p>
+      <p><strong>Built with:</strong> ReactFlow, JavaScript, XRPL</p>
+      <a href="https://github.com/URSutihar/agentflow-xrpl">View repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Procurement NLP</h3>
+      <p>Applied sentence embeddings, clustering, and PCA to 1.2M+ procurement records to investigate material and supply-cost drivers.</p>
+      <p><strong>Built with:</strong> Python, BERT, pandas, scikit-learn</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>apinae</h3>
+      <p>Founder project exploring evidence-led API migration: approved change specification, conformance testing, minimal customer patch, and human review.</p>
+      <p><strong>Focus:</strong> trustworthy developer infrastructure</p>
+      <a href="https://apinae.dev">Visit apinae →</a>
+    </td>
+  </tr>
+</table>
 
 ## Tech stack
 
@@ -67,33 +81,22 @@ Computational-topology pipeline for measuring consistency and higher-order disag
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
-### Intelligent systems & APIs
+### Systems & interfaces
 
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" alt="LangGraph" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-### Interfaces & tooling
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white" alt="D3.js" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ## Background
 
 B.Eng., Engineering Systems and Design — Singapore University of Technology and Design  
-Specializations: Financial Services; Business Analytics & Operations Research · Minor: Artificial Intelligence
+Specialisations: Financial Services; Business Analytics & Operations Research · Minor: Artificial Intelligence
 
-Previously: Technology Intern at Accenture, working on functional specifications, traceability, system-integration testing, and defect validation for a multi-module planning system.
+Previously Technology Intern at Accenture, working on functional specifications, traceability, system-integration testing, and defect validation.
 
----
-
-<p align="center"><i>Building tools that make technical change legible, testable, and safe.</i></p>
+<p align="center"><i>Interested in research collaborations and hard systems problems.</i></p>
